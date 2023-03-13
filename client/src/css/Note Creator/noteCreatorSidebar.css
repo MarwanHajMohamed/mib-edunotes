@@ -1,0 +1,76 @@
+/***  Sidebar CSS ***/
+.noteCreator-sidebar-container {
+  width: 23%;
+  height: 100vh;
+  background-color: var(--bg);
+  border-right: 1px solid black;
+}
+
+.noteCreator-sidebar-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px 0 10px;
+  padding-bottom: 5px;
+  color: white;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.noteCreator-sidebar-notes {
+  margin-top: 10px;
+  height: calc(100vh - 10vh);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.noteCreator-sidebar-note {
+  margin: 0px 10px 0 10px;
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.noteCreator-sidebar-note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.noteCreator-sidebar-note-header button {
+  display: block;
+}
+
+.noteCreator-sidebar-note-header strong {
+  overflow: hidden;
+}
+
+.noteCreator-sidebar-note-preview {
+  word-wrap: break-word;
+}
+
+.noteCreator-sidebar-note-meta {
+  display: block;
+  color: #999;
+}
+
+.noteCreator-sidebar-note:hover {
+  background: #ddd;
+}
+
+.noteCreator-sidebar-note.active,
+.noteCreator-sidebar-note.active small {
+  background: #08c;
+  color: white;
+}
+
+/*Sidebar Note When Active*/
+.noteCreator-sidebar-note.active,
+.noteCreator-sidebar-note.active small {
+  background: #08c;
+  color: white;
+}

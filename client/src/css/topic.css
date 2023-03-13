@@ -1,0 +1,16 @@
+.topic-container {
+    position: relative;
+}
+
+.background-img {
+    height: 300px;
+    overflow: hidden;
+}
+
+.background-img img {
+    width: 100%;
+}
+
+.topic-title {
+    font-size: 2rem;
+}

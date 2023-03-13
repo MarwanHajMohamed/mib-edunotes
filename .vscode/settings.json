@@ -1,0 +1,13 @@
+{
+  "java.project.sourcePaths": [
+    "server/g_33/src/main/java/com.example.g_33/example/g_33",
+    "server/g_33/src/main/java/com/example/g_33"
+  ],
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": [
+    "Inayah",
+    "pageintro"
+  ]
+}

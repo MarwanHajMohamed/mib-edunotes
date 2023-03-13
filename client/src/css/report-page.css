@@ -1,0 +1,138 @@
+/* styling the middle part of the page */
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+.page-centre {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  justify-content: space-evenly;
+  background-color: var(--bg);
+  border: none;
+  border-radius: 20px;
+  height: 200px;
+  width: 600px;
+  box-shadow: 0 10px 20px 0px rgb(0, 0, 0, 0.7);
+  z-index: 10;
+}
+.user-question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.report-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.report,
+.feedback {
+  display: flex;
+  font-weight: bolder;
+  font-size: 1rem;
+  width: 160px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 50%);
+  border-radius: 15px;
+  border: 0;
+  max-width: 560px;
+}
+.report:hover,
+.feedback:hover {
+  cursor: pointer;
+  border: 0;
+  background-color: lightgrey;
+  transition: 100ms ease-in-out;
+}
+
+/* styling the feedback part of the page */
+.feedback-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.feedback-box {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  justify-content: space-evenly;
+  background-color: var(--bg);
+  border: none;
+  border-radius: 20px;
+  width: 600px;
+  /* height: 200px; */
+  box-shadow: 0 10px 20px 0px rgb(0, 0, 0, 0.7);
+  z-index: 10;
+}
+.feedback-prompt {
+  width: 560px;
+  padding-left: 30px;
+}
+.user-feedback-box {
+  min-height: 50px;
+  max-height: 100px;
+  max-width: 500px;
+  overflow: auto;
+}
+.feedback-submit-button {
+  margin-top: 30px;
+}
+
+/* styling the Page content
+next to each other in flexbox */
+.page-design {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: var(--bg); */
+}
+/* these lines of code change the flex direction from 
+row to column when the page becomes smaller
+or when used in a mobile screen */
+@media only screen and (max-width: 800px) {
+  .page-design {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#report-icon-animated-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  color: white;
+  animation: move-around 5s linear infinite;
+}
+
+@keyframes move-around {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100%, 0);
+  }
+  50% {
+    transform: translate(100%, 100%);
+  }
+  75% {
+    transform: translate(0, 100%);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

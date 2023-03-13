@@ -1,0 +1,53 @@
+.login-page-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.login-left-side {
+  background-color: var(--bg);
+  display: flex;
+  padding: 50px;
+}
+
+.login-left-side .logo-title {
+  color: white;
+}
+
+.login-left-side img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.login-right-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-right-side .login-title {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.login-right-side .form-group {
+  margin-top: 20px;
+}
+
+#username,
+#password {
+  width: 300px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: var(--bg);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group .textfield {
+  width: 300px;
+}

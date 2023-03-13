@@ -1,0 +1,31 @@
+.navbar{
+    height:50px;
+    width: 99%;
+    background-color:#f7f7f7;;
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+    display:flex;
+    border-radius: 10px;
+    justify-content:space-between;
+}
+
+.title{
+    font-weight: bold;
+    height:50px;
+    color:#040032;
+    font-size: 25px;
+    line-height:50px;
+}
+
+.return{
+    text-align: right;
+    float: right;
+    border: none;
+    cursor: pointer;
+    background-color: #f7f7f7;
+    border-radius: 10px;  
+    color:#040032;
+    font-size:25px;
+    font-weight: bold;
+}

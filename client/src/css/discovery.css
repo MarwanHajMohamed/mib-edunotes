@@ -1,0 +1,13 @@
+.discovery-container {
+  width: 10px;
+}
+
+.post-button {
+  display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 30px;
+    margin-bottom: 50px;
+    height: 250px;
+    /* margin: 199px; */
+  }

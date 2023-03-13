@@ -1,0 +1,33 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  /* width: 100%; */
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: rgb(209, 209, 209);
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.ul li {
+  padding: 10px 20px;
+  background-color: var(--bg);
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ul li:hover {
+  color: white;
+}

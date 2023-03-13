@@ -1,0 +1,124 @@
+.postcard-wrapper {
+  position: relative;
+}
+
+.postcard-container {
+  position: relative;
+  background-color: rgb(249, 249, 249);
+  height: 100px;
+  /* margin-right: 50px; */
+  border-radius: 15px;
+  box-shadow: 0 5px 1px 0px var(--bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 50ms ease-in-out;
+  cursor: pointer;
+}
+
+.left-side {
+  margin-left: 40px;
+}
+
+.right-side {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  height: 70px;
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 20px;
+  transition: 50ms ease-in-out;
+}
+
+.right-side .post-date {
+  font-size: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+}
+
+.right-side .like-container i {
+  cursor: pointer;
+  color: #039600;
+}
+
+.right-side .dislike-container i {
+  cursor: pointer;
+  transform: rotateY(180deg);
+  color: #d60000;
+}
+
+.postcard-container:hover {
+  box-shadow: 0 5px 1px 0px var(--primary);
+}
+
+.postcard-container:hover .post-title {
+  color: var(--primary);
+}
+
+.modal {
+  max-height: 100vh;
+  overflow-y: scroll;
+  margin: 10px;
+}
+
+.modal-box {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 900px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #000;
+}
+
+.content ul,
+.content ol {
+  margin-left: 20px;
+}
+
+.topic-title.modalTitle {
+  font-size: 2rem;
+  align-items: flex-start;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+}
+
+.comment-box-textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #021551;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #006f8e;
+}

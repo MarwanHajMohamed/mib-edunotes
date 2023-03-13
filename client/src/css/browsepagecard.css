@@ -1,0 +1,59 @@
+.browsecard-container {
+    background-color: rgb(223, 223, 223);
+    width: 220px;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0, 0.3);
+}
+
+.browsecard-container:hover {
+    transform: scale(1.02);
+}
+
+.card-image {
+    height: 100px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 5px;
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.follow button{
+    border: 0;
+    width: 60%;
+    background-color: var(--bg);
+    font-size: 12px;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    font-weight: 600;
+
+}
+
+.follow button:hover {
+    background-color: var(--bg-hover);
+    transform: scale(1.05);
+}

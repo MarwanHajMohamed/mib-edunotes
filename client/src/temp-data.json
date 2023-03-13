@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "user": "Jenny Chan",
+    "subject": "How to create tables in HTML?",
+    "topic": "Computing",
+    "likes": "9"
+  },
+  {
+    "id": 2,
+    "user": "Jessica warren",
+    "subject": "How to create notes in physics?",
+    "topic": "Physics",
+    "likes": "8"
+  },
+  {
+    "id": 3,
+    "user": "Tony Frank",
+    "subject": "East India Company",
+    "topic": "History",
+    "likes": "7"
+  },
+  {
+    "id": 4,
+    "user": "Jeremy Clark",
+    "subject": "Shakespear: Romance vs. Politics",
+    "topic": "Literature",
+    "likes": "6"
+  },
+  {
+    "id": 5,
+    "user": "Raymond Edwards",
+    "subject": "Photosynthesis",
+    "topic": "Botany",
+    "likes": "5"
+  },
+  {
+    "id": 6,
+    "user": "NoteKing",
+    "subject": "How to create Flappy Bird game with javascript?",
+    "topic": "Computing",
+    "likes": "4"
+  },
+  {
+    "id": 7,
+    "user": "RoyalNotes",
+    "subject": "How to create notes in maths?",
+    "topic": "Maths",
+    "likes": "3"
+  },
+  {
+    "id": 8,
+    "user": "RoyalNotes1",
+    "subject": "How to create notes in maths?",
+    "topic": "Maths",
+    "likes": "3"
+  }
+]

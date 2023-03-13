@@ -1,0 +1,34 @@
+.stars-card-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 15px;
+}
+
+.stars-card-container .stars-to-purchase {
+  background: #c5cf3e;
+  background: linear-gradient(to right, #c5cf3e 24%, #bccfcd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.stars-card-container button {
+  background-color: transparent;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 100ms ease-in-out;
+  margin-top: 20px;
+}
+
+.stars-card-container button:hover {
+  background-color: #f2782c;
+  color: white;
+}

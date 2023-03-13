@@ -1,0 +1,19 @@
+.browsepage-container {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px 100px;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+header img {
+    width: 170px;
+}

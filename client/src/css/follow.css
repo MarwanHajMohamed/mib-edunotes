@@ -1,0 +1,239 @@
+.follow-container {
+    background-color: #f5f5f5;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  
+  .follow-container .follow-title {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: auto auto ;
+  }
+
+  .mac {
+    position: absolute;
+    width: 900px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
+  .follow-container .follow-description {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(99, 99, 99);
+    font-size: 1rem;
+  }
+  
+  .follow-container .follow-account-container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    height: 250px;
+  }
+  
+  .follow-container .account {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    aspect-ratio: 1;
+    top: 10px;
+    left: -10px;
+    background-color: var(--bg);
+    border-radius: 20px;
+    /* box-shadow: 0 0px 20px 0px var(--bg); */
+    
+  }
+  
+  .follow-account-container .account i {
+    color: white;
+    font-size: 7rem;
+  }
+  
+  .follow-account-container .note-container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  
+  .follow-account-container .note {
+    display: flex;
+    background-color: white;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    margin-left: 160px;
+  }
+  
+  .follow-account-container .note .note-left {
+    padding: 10px 20px;
+    width: 330px;
+  }
+  
+  .follow-account-container .note .note-left .note-title {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .follow-account-container .note .note-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.7rem;
+    padding-right: 10px;
+  }
+  
+  .note-right .thumbs-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .note-right .thumbs-down {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .follow-account-container .note .note-right .thumbs-up i {
+    color: green;
+    font-size: 20px;
+  }
+  
+  .follow-account-container .note .note-right .thumbs-down i {
+    color: red;
+    font-size: 20px;
+  }
+
+  @media (max-width: 920px) {
+    .mac {
+      width: 600px;
+    }
+
+    .follow-container .follow-title {
+      font-size: 1.5rem;
+      margin-top: 60px;
+    }
+
+    .follow-container .follow-description {
+      font-size: 10px;
+      margin-bottom: 25px;
+    }
+
+    .follow-container .account {
+      width: 160px;
+      top: -10px;
+      left: 5px;
+    }
+
+    .follow-container .account i {
+      font-size: 5rem;
+    }
+
+  .follow-account-container .note .note-left {
+    padding-left: 10px;
+  }
+
+    .follow-container .note .note-left .note-title {
+      font-size: 10px;
+    }
+
+    .follow-container .note-left {
+      font-size: 8px;
+    }
+
+    .follow-container .note {
+      width: 250px;
+      height: 40px;
+      border-radius: 10px;
+    }
+
+    .note-right .thumbs-down,
+    .note-right .thumbs-up {
+      font-size: 10px;
+    }
+
+    .follow-account-container .note .note-right .thumbs-up i {
+      font-size: 15px;
+    }
+
+    .follow-account-container .note .note-right .thumbs-down i {
+      font-size: 15px;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .follow-container {
+      padding: 0;
+    } 
+
+  .mac {
+      width: 350px;
+    }
+
+    .follow-container .follow-title {
+      font-size: 13px;
+      margin-top: 130px;
+    }
+
+    .follow-container .follow-description {
+      font-size: 8px;
+      margin-bottom: 0px;
+      width: 180px;
+      margin: auto;
+    }
+
+    .follow-container .account {
+      width: 90px;
+      left: 0px;
+      top: 10px;
+    }
+
+    .follow-container .account i {
+      font-size: 3rem;
+    }
+
+    .follow-account-container .note-container {
+      margin-top: 10px;
+    }
+
+    .follow-account-container .note .note-left {
+      padding: 5px 10px;
+    }
+
+    .follow-container .note .note-left .note-title {
+      font-size: 8px;
+    }
+
+    .follow-container .note-left {
+      font-size: 6px;
+      padding-left: 10px;
+    }
+
+    .follow-container .note {
+      width: 160px;
+      height: 25px;
+      border-radius: 5px;
+      margin-left: 80px;
+    }
+
+    .note-right .thumbs-down,
+    .note-right .thumbs-up {
+      font-size: 7px;
+    }
+
+    .follow-account-container .note .note-right .thumbs-up i {
+      font-size: 10px;
+    }
+
+    .follow-account-container .note .note-right .thumbs-down i {
+      font-size: 10px;
+    }
+  }

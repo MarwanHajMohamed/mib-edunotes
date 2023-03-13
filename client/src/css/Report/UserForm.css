@@ -1,0 +1,134 @@
+body {
+  background-color: white;
+}
+/* this puts the title of the page in the centre */
+.page-title {
+  display: flex;
+  justify-content: center;
+  background-color: darkblue;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.select-reason-prompt {
+  margin-top: 90px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.radioGroup1 {
+  margin-top: 5px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.radioGroup1 label {
+  margin-bottom: 15px;
+}
+
+.radioGroup1 input[type="radio"] {
+  margin-right: 10px;
+}
+.radio-box {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #999;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px; /* this sets the rounded corners */
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.radio-box:checked {
+  background-color: darkblue;
+}
+/* css for the displayed thank you message */
+.thank-you-message-1 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+.further-steps-question {
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.action-processed-message1 {
+  margin-left: 20px;
+  margin-top: 10px;
+  /* margin-left: 20px; */
+  width: 650px;
+  color: red;
+  margin-top: 20px;
+}
+.action-processed-message2 {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 650px;
+  color: red;
+  margin-top: 20px;
+}
+/* this message displays what action has been taken for the user */
+.action-taken-message {
+  display: flex;
+  margin-top: 11px;
+  margin-left: 20px;
+  background-color: rgba(255, 192, 203, 0.2);
+  width: 500px;
+  line-height: 20px;
+}
+.information-box {
+  border: 3px solid darkblue; /* Blue border */
+  font-size: 15px; /* Font size of the text inside the box */
+  border-radius: 5px; /* Rounded corners */
+  width: 300px;
+  display: inline-block;
+  transition: background-color 0.4s ease-in-out;
+  height: 50px;
+  overflow: auto;
+  margin-left: 20px;
+}
+.information-box::selection {
+  position: relative;
+  top: -55px;
+}
+.information-box::placeholder {
+  color: darkblue; /* Blue placeholder text color */
+  font-size: 15px; /* Font size of the placeholder text */
+}
+.information-box:focus {
+  background-color: rgb(234, 233, 233);
+}
+.submit-button {
+  margin-left: 30px;
+  height: 40px;
+  width: 70px;
+  border-radius: 6px;
+  background-color: darkblue;
+  color: white;
+}
+.submit-button:hover {
+  background-color: black;
+  transition: background-color 0.4s ease-in-out;
+}
+.post-submission-text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.provided-info-display {
+  margin-left: 20px;
+  display: flex;
+  width: 300px;
+  border-radius: 5px;
+  border: solid;
+  background-color: rgb(255, 227, 232);
+  padding: 20px;
+}

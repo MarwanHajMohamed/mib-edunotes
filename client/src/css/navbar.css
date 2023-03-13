@@ -1,0 +1,220 @@
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: 10ms ease-in-out;
+  z-index: 999;
+  /* background-color: var(--bg); */
+}
+
+.navbar img {
+  width: 170px;
+  cursor: pointer;
+  margin-left: -20px;
+}
+
+.navbar-container .leftHide {
+  visibility: collapse;
+  position: absolute;
+}
+
+.navbar-container .left {
+  transition: 100ms ease-in-out;
+}
+
+.navbar .loginBtn {
+  background-color: transparent;
+  color: white;
+  padding: 8px 15px;
+  border: 0;
+  cursor: pointer;
+  transition: 50ms ease-in-out;
+}
+
+.navbar .loginBtn:hover {
+  color: rgb(217, 217, 217);
+}
+
+.navbar .registerBtn:hover {
+  background-color: rgb(217, 217, 217);
+}
+
+.navbar .registerBtn {
+  background-color: white;
+  color: var(--bg);
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 0;
+  transition: 100ms ease-in-out;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.colorChange {
+  background-color: #fff;
+  box-shadow: 0 1px 5px 1px rgb(0, 0, 0, 0.4);
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  aspect-ratio: 1;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.account-container {
+  background-color: white;
+  position: absolute;
+  right: 50px;
+  top: 70px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px black;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 350px;
+}
+
+.profile-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  height: 100px;
+  border-radius: 5px 5px 0 0;
+  background-color: rgb(196, 196, 196);
+}
+
+.profile.two {
+  box-shadow: 0 0 10px 1px rgb(0, 0, 0, 0.4);
+  position: absolute;
+  width: 80px;
+  top: 60px;
+}
+
+.profile.two i {
+  font-size: 2.5rem;
+}
+
+.dropDown .account-container {
+  display: none;
+}
+
+.down .account-container{
+  display: block;
+}
+
+.account-button-container {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  margin: 100px auto;
+  gap: 10px;
+}
+
+.account-button-container .account.register {
+  background-color: var(--bg);
+  color: #fff;
+}
+
+.navbar li .account {
+  background-color: #fff;
+  padding: 7px 15px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 50ms ease-in-out;
+  border: 1px solid transparent;
+}
+
+.navbar a:hover{
+    border-bottom: 5px solid #89001b;
+    border-radius: 3px;
+}
+
+.mobilenav {
+    display: none;
+}
+
+.navbar .register:hover {
+  background-color: rgb(46, 48, 97);
+}
+
+.navbar .login:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.colorChange .profile.one {
+  background-color: var(--bg);
+  color: #fff;
+}
+
+.colorChange .loginBtn {
+  color: black;
+}
+
+.colorChange .registerBtn {
+  background-color: var(--bg);
+  color: #fff;
+}
+
+.colorChange .loginBtn:hover {
+  color: gray;
+}
+
+.colorChange .registerBtn:hover {
+  background-color: #120d4f;
+}
+
+@media (max-width : 990px){
+    .desktopnav{
+        display: none;
+    }
+
+    .mobilenav {
+        display: flex;
+    }
+}
+
+@media (max-width: 440px) {
+  .navbar-container img {
+    width: 120px;
+  }
+
+  .navbar-container .right ul {
+    gap: 1px;
+  }
+
+  .navbar-container .right .registerBtn {
+    width: 80px;
+    font-size: 12px;
+  }
+
+  .navbar-container .right .loginBtn {
+    width: 80px;
+    font-size: 12px;
+  }
+}

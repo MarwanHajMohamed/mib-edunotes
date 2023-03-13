@@ -1,0 +1,32 @@
+/* Global CSS */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+/***  Base CSS ***/
+.NoteCreatorHub {
+  box-sizing: border-box;
+}
+
+.NoteCreatorHub body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.NoteCreatorHub button {
+  background: none;
+  border: 0;
+  margin: 0;
+  padding: 5px;
+  font-size: inherit;
+  font-family: inherit;
+  cursor: pointer;
+  color: green;
+}
+
+.NoteCreatorHub button:hover {
+  color: rgb(204, 0, 0);
+}

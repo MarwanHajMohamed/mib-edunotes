@@ -1,0 +1,96 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    column-width: 15%, 65%, 15%, 2%, 1%, 2%;
+    float: right;
+
+}
+
+.tableGreen {
+    border-radius: 15px;
+    background: #ffffff;
+    border: 4px solid #3dff54;
+    padding: 5px; 
+    margin-bottom: 10px;
+    width: 90%;
+    height: auto;
+    color: rgb(0, 0, 0); 
+    margin-left: 5px;
+  }
+
+.tableRed {
+    border-radius: 15px;
+    background: #ffffff;
+    border: 4px solid #9b1212;
+    padding: 5px;
+    margin-bottom: 2%;
+    width: 70%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-top: 2%;
+  }
+
+  .tableRed1 {
+    border-radius: 15px;
+    background: #187687;
+    border: 4px solid #9b1212;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    margin-top: 5%;
+    
+    
+    
+  }
+
+  .row1 {
+    text-align: left;
+    border-radius: 15px;
+    background: #ffffff;
+    border-color: #3dff54;
+    padding: 5px;
+  }
+
+  #thumbs-up {
+    background: url(images/thumbs-up20.png) center no-repeat;
+    height: 30px;
+    width: 30px;
+    border: #ffffff;
+}
+
+#thumbs-down {
+    background: url(images/thumbs-down20.png) center no-repeat;
+    height:    30px;
+    width: 30px;
+    border: #ffffff;
+}
+
+#colUser {
+    width: 15%;
+    padding-right: 1%;
+}
+
+#colSubject {
+    width: 64%;
+    font-weight: bold;
+}
+
+#colTopic {
+    width: 15%;
+}
+
+#colThumbsUP {
+    width: 2%;
+}
+
+#colLikes {
+    width: 2%;
+}
+
+#colThumbsDown {
+    width: 2%;
+}

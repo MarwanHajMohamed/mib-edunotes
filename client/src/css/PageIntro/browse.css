@@ -1,0 +1,146 @@
+.browse-container {
+    background-color: var(--white);
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .browse-container .browse-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .browse-description {
+    margin: auto;
+    font-size: 1.2rem;
+    color: rgb(99, 99, 99);
+    margin-bottom: 30px;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .browse {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: auto auto 1rem;
+    flex-wrap: wrap;
+    transition: 200ms ease-in-out;
+  }
+  
+  .browse .option {
+    display: flex;
+    gap: 1rem;
+    width: 160px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px rgb(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 15px;
+    transition: 100ms ease-in-out;
+    cursor: pointer;
+    border: 0;
+    color: var(--bg);
+  }
+  
+  .browse .option .browse-name {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  .browse i {
+    font-size: 1.4rem;
+  }
+  
+  .browse .option:hover  {
+    background-color: #e4e4e4;
+  }
+
+  .see-more {
+    display: flex;
+    gap: 5px;
+    background-color: var(--bg);
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    border: 0;
+    transition: 300ms ease-in-out;
+  }
+  
+  .see-more:hover {
+    background-color: var(--bg-hover);
+  }
+  
+  @media (max-width: 800px) {
+    .browse-container .option i {
+      font-size: 1rem;
+    }
+  
+    .browse .option .browse-name {
+      font-size: 0.8rem;
+    }
+  
+    .browse .option {
+      width: 120px;
+      height: 40px;
+    }
+
+    .browse-description {
+      width: 650px;
+    }
+  }
+  
+  @media (max-width: 690px) {
+    .browse-container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  
+    .browse-container .browse-title {
+      justify-content: center;
+      font-size: 2rem;
+    }
+
+    .browse-description {
+      font-size: 14px;
+      width: 450px;
+    }
+  
+    /* .browse-container .browse {
+      margin: auto;
+    } */
+  }
+  
+  @media (max-width: 560px) {
+    .browse-container .option i {
+      font-size: 0.5rem;
+    }
+  
+    .browse .option .browse-name {
+      font-size: 10px;
+    }
+  
+    .browse .option {
+      width: 80px;
+      height: 40px;
+      gap: 5px;
+    }
+  }
+
+  @media (max-width: 460px) {
+    .browse-description {
+      font-size: 12px;
+      width: 350px;
+    }
+
+    .browse {
+      gap: 10px;
+    }
+  }

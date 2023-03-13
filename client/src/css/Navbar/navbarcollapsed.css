@@ -1,0 +1,137 @@
+.collapse-container .fa-solid.fa-chevron-left,
+.collapse-container .fa-solid.fa-chevron-right {
+  color: var(--bg);
+  position: absolute;
+  left: -32px;
+  top: 20px;
+  z-index: 10;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  border-right: 0;
+}
+
+.open,
+.collapse-bar {
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  transition: 300ms ease-in-out;
+  border-left: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.open-items .image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 12px;
+  gap: 5px;
+}
+
+.open-items img {
+  width: 200px;
+  cursor: pointer;
+}
+
+.open-items .image-container button {
+  background-color: transparent;
+  color: gray;
+  border: 0;
+  cursor: pointer;
+}
+
+.open-items .image-container button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.open-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--bg);
+  width: 250px;
+  height: 100%;
+}
+
+.open-items .profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.profile-container .profile-name {
+  display: flex;
+}
+
+.open-items .profile-container {
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 10px 0px rgb(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.profile img {
+  width: 120px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-items .routes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.open-items .routes button {
+  padding: 10px;
+  cursor: pointer;
+  border: 0;
+  border-top: 1px solid rgb(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.open-items .routes button:last-of-type {
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.open-items button:hover {
+  background-color: lightgray;
+}
+
+.collapse-bar {
+  transform: translateX(100%);
+}
+
+.open-items .profile-container .stars-container {
+  display: flex;
+  align-items: center;
+}
+
+.open-items .profile-container .stars-container i {
+  color: yellow;
+  font-size: 20px;
+  cursor: pointer;
+}
